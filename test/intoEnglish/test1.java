@@ -21,6 +21,7 @@ public class test1 {
 		
 		
 		System.out.println(ite.translateEng(1000));
+		System.out.println(ite.translateEng(1011));
 	}
 
 }

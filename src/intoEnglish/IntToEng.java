@@ -34,6 +34,8 @@ public class IntToEng {
     		return a[hrank]+" hundred "+b[n%100/10]+" "+a[n%100%10];
     	}else if(n==1000){
     		return "thousand";
+    	}else if(n>1000&&n<1020){
+    		return "thousand"+a[n%100];
     	}
     	//a[hrank]で100のくらい。n%100で下２桁。
     	
